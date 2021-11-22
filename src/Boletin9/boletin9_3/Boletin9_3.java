@@ -3,21 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boletin9_2;
+package boletin9_3;
 
 /**
  *
  * @author dam1
  */
-public class Boletin9_2 {
+public class Boletin9_3 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Cuentas cuent = new Cuentas();
-        System.out.println("Suma y Producto del 10 al 90");
-        cuent.calcular();
+        Area a=new Area();
+        System.out.println("El area del rectangulo es:" +a.calcArea());
     }
     
 }

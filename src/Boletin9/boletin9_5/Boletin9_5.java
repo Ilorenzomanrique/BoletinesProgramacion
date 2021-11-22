@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boletin9_2;
+package boletin9_5;
 
 /**
  *
  * @author dam1
  */
-public class Boletin9_2 {
+public class Boletin9_5 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Cuentas cuent = new Cuentas();
-        System.out.println("Suma y Producto del 10 al 90");
-        cuent.calcular();
+        Serie s=new Serie();
+        System.out.println("Introduzca el numero de elementos a mostrar:");
+        s.mostrarSeries();
     }
     
 }

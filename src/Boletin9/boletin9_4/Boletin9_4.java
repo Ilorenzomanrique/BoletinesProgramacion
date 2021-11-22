@@ -3,12 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boletin9_2;
+package boletin9_4;
 
 /**
  *
  * @author dam1
  */
-public class Cálculos {
+public class Boletin9_4 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Tabla t=new Tabla();
+        t.mostrarTabla();
+    }
     
 }
